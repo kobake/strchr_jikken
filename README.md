@@ -1,5 +1,7 @@
 # strchr_jikken
 
+http://qiita.com/hnw/items/e76732387ab76a070d2b に触発されて書いた実験コード。
+
 独自 my_strchr を最適化無しでコンパイルするのはライブラリ関数 strchr と比較する上ではフェアではないので my_strchr は「-O3」を付けてビルドするようにしてあります。
 計測用の main.cpp については最適化が走ると計測にならないので「-O0」としています。
 
